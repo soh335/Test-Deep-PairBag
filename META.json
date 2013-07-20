@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "compare arrayref as hashref stored mutiple value per key by Test::Deep",
    "author" : [
       "This library is free software; you can redistribute it and/or modify"
    ],
@@ -42,15 +42,20 @@
       },
       "runtime" : {
          "requires" : {
+            "Test::Deep" : "0",
             "perl" : "5.008005"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.98"
+            "Test::More" : "0.98",
+            "Test::Tester" : "0"
          }
       }
    },
    "release_status" : "unstable",
-   "version" : "0.01"
+   "version" : "0.01",
+   "x_contributors" : [
+      "soh335 <sugarbabe335@gmail.com>"
+   ]
 }
