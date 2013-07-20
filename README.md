@@ -17,8 +17,8 @@ Test::Deep::PairBag - compare arrayref as hashref stored mutiple value per key b
 Test::Deep::PairBag compare arrayref as hashref stored mutiple value per key by [Test::Deep](http://search.cpan.org/perldoc?Test::Deep).
 
 In Test::Deep::PairBag, got array and expected array are took out two elements and wraped as arrayref.
-So, `<[foo =` 1, bar => 2, foo => 3\]>> is translated to `<[ [foo =` 1\], \[ba => 2\], \[foo => 3\] \]>>.
-And, comparing them by `<Test::Deep::bag`\>.
+So, `[foo => 1, bar => 2, foo => 3]` is translated to `[ [foo => 1], [ba => 2], [foo => 3] ]`.
+And, comparing them by `Test::Deep::bag`.
 
 # Functions
 
