@@ -123,7 +123,7 @@ Test::Deep::PairBag - compare arrayref as hashref stored mutiple value per key b
 
 =head1 DESCRIPTION
 
-Test::Deep::PairBag compare arrayref as hashref stored mutiple value per key by L<<Test::Deep>>.
+Test::Deep::PairBag compare arrayref as hashref stored mutiple value per key by L<Test::Deep>.
 
 In Test::Deep::PairBag, got array and expected array are took out two elements and wraped as arrayref.
 So, C<<[foo => 1, bar => 2, foo => 3]>> is translated to C<<[ [foo => 1], [ba => 2], [foo => 3] ]>>.

@@ -54,6 +54,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/soh335/Test-Deep-PairBag/issues"
+      },
+      "homepage" : "https://github.com/soh335/Test-Deep-PairBag",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/soh335/Test-Deep-PairBag.git",
+         "web" : "https://github.com/soh335/Test-Deep-PairBag"
+      }
+   },
    "version" : "0.01",
    "x_contributors" : [
       "soh335 <sugarbabe335@gmail.com>"
